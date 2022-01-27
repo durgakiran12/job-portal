@@ -1,0 +1,993 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Job Portal </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <style>
+        /* Create three equal columns that floats next to each other */
+        
+		.body
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+	background-image:"/assets/home bg.jpg";
+}
+
+
+.column {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+            height: 100%;
+            /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 3px;
+            background-color: DarkSalmon;
+            color: white;
+        }
+
+		.about {
+            text-align: center;
+            padding: 3px;
+            background-color: #219F94;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+<div class="about">	
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <img src="assets/logo.png" alt="" />
+            </div>
+			
+   <h3>Job search</h3>
+            <div class="clearfix"> </div>
+        </div>
+        <!--/.navbar-collapse-->
+    </nav>
+    <div class="banner_1">
+        <div class="container">
+            <div id="search_wrapper1">
+                <div id="search_form" class="clearfix">
+                    <h1>Start your job search</h1>
+                    <p>
+                        <input type="text" class="text" placeholder=" " value="Enter Keyword(s)"
+                            onfocus="this.value = '';"
+                            onblur="if (this.value == '') {this.value = 'Enter Keyword(s)';}">
+                        <input type="text" class="text" placeholder=" " value="Location" onfocus="this.value = '';"
+                            onblur="if (this.value == '') {this.value = 'Location';}">
+                        <label class="btn2 btn-2 btn2-1b"><input type="submit" value="Find Jobs"></label>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="col-md-3">
+                <div class="widget_search">
+                    <h5 class="widget-title">Search</h5>
+                    <div class="widget-content">
+                        <span>I'm looking for a ...</span>
+                        <select class="form-control jb_1">
+                            <option value="0">Job</option>
+                            <option value="">Engineering</option>
+                            <option value="">MBA</option>
+                            <option value="">BSc</option>
+                            <option value="">BCs</option>
+                        </select>
+                        <span>in</span>
+                        <input type="text" class="form-control jb_2" placeholder="Location">
+                        <input type="text" class="form-control jb_2" placeholder="Industry / Role">
+                        <input type="submit" class="btn btn-default" value="Search">
+                    </div>
+                </div>
+                <div class="col_3">
+                    <h3>Work Experiance</h3>
+                    <table class="table">
+                        <tbody>
+                            <tr class="unread checked">
+                                <td class="hidden-xs">
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td class="hidden-xs">
+                                    Fresher
+                                </td>
+                                <td>
+                                    (56)
+                                </td>
+                            </tr>
+                            <tr class="unread checked">
+                                <td class="hidden-xs">
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td class="hidden-xs">
+                                    Experienced
+                                </td>
+                                <td>
+                                    (56)
+                                </td>
+                            </tr>
+                            <tr class="unread checked">
+                                <td class="hidden-xs">
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td class="hidden-xs">
+                                    Fresher
+                                </td>
+                                <td>
+                                    (56)
+                                </td>
+                            </tr>
+                            <tr class="unread checked">
+                                <td class="hidden-xs">
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td class="hidden-xs">
+                                    Fresher
+                                </td>
+                                <td>
+                                    (56)
+                                </td>
+                            </tr>
+                            <tr class="unread checked">
+                                <td class="hidden-xs">
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td class="hidden-xs">
+                                    Experienced
+                                </td>
+                                <td>
+                                    (56)
+                                </td>
+                            </tr>
+                            <tr class="unread checked">
+                                <td class="hidden-xs">
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td class="hidden-xs">
+                                    Junior
+                                </td>
+                                <td>
+                                    (56)
+                                </td>
+                            </tr>
+                            <tr class="unread checked">
+                                <td class="hidden-xs">
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td class="hidden-xs">
+                                    Experienced
+                                </td>
+                                <td>
+                                    (56)
+                                </td>
+                            </tr>
+                            <tr class="unread checked">
+                                <td class="hidden-xs">
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td class="hidden-xs">
+                                    Fresher
+                                </td>
+                                <td>
+                                    (56)
+                                </td>
+                            </tr>
+                            <tr class="unread checked">
+                                <td class="hidden-xs">
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td class="hidden-xs">
+                                    Fresher
+                                </td>
+                                <td>
+                                    (56)
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col_3">
+                    <h3>Work Permit</h3>
+                    <table class="table">
+                        <tbody>
+                            <tr class="unread checked">
+                                <td class="hidden-xs">
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td class="hidden-xs">
+                                    Full time
+                                </td>
+                            </tr>
+                            <tr class="unread checked">
+                                <td class="hidden-xs">
+                                    <input type="checkbox" class="checkbox">
+                                </td>
+                                <td class="hidden-xs">
+                                    Part time
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="column">
+            <div class="single">
+                <div class="col-md-9 single_right">
+                    <div class="but_list">
+                        <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+                            <ul id="myTab" class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab"
+                                        data-toggle="tab" aria-controls="home" aria-expanded="true">Available
+                                        jobs</a></li>
+                                <!--li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">Show Descriptions</a></li-->
+                            </ul>
+                            <div id="myTabContent" class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade in active" id="home"
+                                    aria-labelledby="home-tab">
+                                    <div class="tab_grid">
+                                        <div class="jobs-item with-thumb">
+                                            <div class="thumb"><a href="jobs_single.html"><img src="assets/a2.jpg"
+                                                        class="img-responsive" alt="" /></a></div>
+                                            <div class="jobs_right">
+                                                <div class="date">30 <span>Jul</span></div>
+                                                <div class="date_desc">
+                                                    <h4 class="title"><a href="jobs_single.html">Front-end
+                                                            Developer</a>
+                                                    </h4>
+                                                    <span class="meta">Senior Software Engineer</span>
+                                                </div>
+                                                <div class="clearfix"> </div>
+                                                <ul class="top-btns">
+													
+                                                    <!--li><a href="#" class="fa fa-plus toggle"></a></li>
+                                                    <li><a href="#" class="fa fa-star"></a></li>
+                                                    <li><a href="#" class="fa fa-link"></a></li-->
+                                                </ul>
+                                                <p class="description">Do you want to work on a product which
+                                                    touches and
+                                                    transforms the lives of billions of people across the globe? Are
+                                                    you
+                                                    someone who is passionate about bringing customer obsession and
+                                                    engineering craftsmanship into the product you build? Are you
+                                                    looking to
+                                                    work on large scale websites building a compelling user
+                                                    experience and
+                                                    the frameworks behind the experiences?The People Also Ask team
+                                                    is hiring
+                                                    a full stack developer who can help us build the next generation
+                                                    backend
+                                                    and frontend experiences that would delight our customers.
+                                                    As a software engineer on this team, you will be responsible for
+                                                    designing, coding, and owning software and services to enable
+                                                    high
+                                                    performant, delightful web sites and applications.</p>
+                                            </div>
+											<button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Apply
+											</button>
+                                            <div class="clearfix"> </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab_grid">
+                                        <div class="jobs-item with-thumb">
+                                            <div class="thumb"><a href="jobs_single.html"><img src="assets/a1.jpg"
+                                                        class="img-responsive" alt="" /></a></div>
+                                            <div class="jobs_right">
+                                                <div class="date">30 <span>Jul</span></div>
+                                                <div class="date_desc">
+                                                    <h4 class="title"><a href="jobs_single.html">SQL Developer, Pune</a>
+                                                    </h4>
+                                                    <!--span class="meta">SQL Developer, Pune</span-->
+                                                </div>
+                                                <div class="clearfix"> </div>
+                                                <ul class="top-btns">
+                                                    <!--li><a href="#" class="fa fa-plus toggle"></a></li>
+                                                    <li><a href="#" class="fa fa-star"></a></li>
+                                                    <li><a href="#" class="fa fa-link"></a></li-->
+                                                </ul>
+                                                <p class="description">Your Role and Responsibilities.Create and
+                                                    maintain
+                                                    optimal data pipeline architecture. Assemble large, complex data
+                                                    sets
+                                                    that meet business requirements, using complex SQL queries.
+                                                    Perform data analysis of complex data sets which is required to
+                                                    troubleshoot data related issues and assist in the resolution of
+                                                    data
+                                                    issues.</p>
+                                            </div>
+											<button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Apply
+											</button>
+                                            <div class="clearfix"> </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab_grid">
+                                        <div class="jobs-item with-thumb">
+                                            <div class="thumb"><a href="jobs_single.html"><img src="assets/a3.jpg"
+                                                        class="img-responsive" alt="" /></a></div>
+                                            <div class="jobs_right">
+                                                <div class="date">30 <span>Jul</span></div>
+                                                <div class="date_desc">
+                                                    <h4 class="title"><a href="jobs_single.html">Construction Accountant</a>
+                                                    </h4>
+                                                    <!--span class="meta">Construction Accountant</span-->
+                                                </div>
+                                                <div class="clearfix"> </div>
+                                                <ul class="top-btns">
+                                                    <!--li><a href="#" class="fa fa-plus toggle"></a></li>
+                                                    <li><a href="#" class="fa fa-star"></a></li>
+                                                    <li><a href="#" class="fa fa-link"></a></li-->
+                                                </ul>
+                                                <p class="description">We are looking to hire an experienced
+                                                    construction
+                                                    accountant to join our company. In this role, you'll be
+                                                    responsible for
+                                                    managing the accounts of various construction projects by
+                                                    creating
+                                                    detailed budgets, overseeing supplier contracts, evaluating
+                                                    production
+                                                    costs, and verifying invoice statements.
+                                                    To ensure success as a construction accountant, you should
+                                                    display
+                                                    excellent business acumen and the ability to minimize production
+                                                    costs
+                                                    through efficient accounting. Ultimately, a top-notch
+                                                    construction
+                                                    accountant is an analytical and detail-oriented individual with
+                                                    a high
+                                                    level of financial accuracy.</p>
+                                            </div>
+											<button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Apply
+											</button>
+                                            <div class="clearfix"> </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab_grid">
+                                        <div class="jobs-item with-thumb">
+                                            <div class="thumb"><a href="jobs_single.html"><img src="assets/a4.png"
+                                                        class="img-responsive" alt="" /></a></div>
+                                            <div class="jobs_right">
+                                                <div class="date">30 <span>Jul</span></div>
+                                                <div class="date_desc">
+                                                    <h4 class="title"><a href="jobs_single.html">Salesforce Project Manager</a>
+                                                    </h4>
+                                                    <!--span class="meta">Salesforce Project Manager</span-->
+                                                </div>
+                                                <div class="clearfix"> </div>
+                                                <ul class="top-btns">
+                                                    <!--li><a href="#" class="fa fa-plus toggle"></a></li>
+                                                    <li><a href="#" class="fa fa-star"></a></li>
+                                                    <li><a href="#" class="fa fa-link"></a></li-->
+                                                </ul>
+                                                <p class="description">We are searching for a skilled Salesforce
+                                                    project
+                                                    manager to oversee projects developed by our business on various
+                                                    Salesforce platforms. In this role, you will be tasked with
+                                                    determining
+                                                    project scope, goals, milestones, and short-term objectives for
+                                                    the
+                                                    development team. You will also take charge of costs, client
+                                                    relations,
+                                                    and final approval.
+                                                    To ensure success as a Salesforce project manager, you should be
+                                                    knowledgeable about the various Salesforce solutions and be
+                                                    skilled at
+                                                    leveraging the talents of your development team. A top-notch
+                                                    Salesforce
+                                                    project manager will be skilled in managing projects for
+                                                    Salesforce
+                                                    Sales Cloud, Service Cloud, Marketing Cloud, and Salesforce1</p>
+                                            </div>
+											<button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Apply
+											</button>
+                                            <div class="clearfix"> </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab_grid">
+                                        <div class="jobs-item with-thumb">
+                                            <div class="thumb"><a href="jobs_single.html"><img src="assets/a5.jpg"
+                                                        class="img-responsive" alt="" /></a></div>
+                                            <div class="jobs_right">
+                                                <div class="date">30 <span>Jul</span></div>
+                                                <div class="date_desc">
+                                                    <h4 class="title"><a href="jobs_single.html">Staff Configuration/Release Engineer</a>
+                                                    </h4>
+                                                    <!--span class="meta">Staff Configuration/Release Engineer</span-->
+                                                </div>
+                                                <div class="clearfix"> </div>
+                                                <ul class="top-btns">
+                                                    <!--li><a href="#" class="fa fa-plus toggle"></a></li>
+                                                    <li><a href="#" class="fa fa-star"></a></li>
+                                                    <li><a href="#" class="fa fa-link"></a></li-->
+                                                </ul>
+                                                <p class="description">ServiceNow is changing the way people work.
+                                                    With a
+                                                    service-orientation toward the activities, tasks and processes
+                                                    that make
+                                                    up day-to-day work life, we help the modern enterprise operate
+                                                    faster
+                                                    and be more scalable than ever before.
+                                                    We are disruptive. We work hard but try not to take ourselves
+                                                    too
+                                                    seriously. We are highly adaptable and constantly evolving. We
+                                                    are
+                                                    passionate about our product, and we live for our customers. We
+                                                    have
+                                                    high expectations and a career at ServiceNow means challenging
+                                                    yourself
+                                                    to always be better.
+                                                    Staff Release Engineer will help to revolutionize ServiceNow
+                                                    internal
+                                                    Product release and delivery process for its business users and
+                                                    developers. In need of a candidate to lead design release
+                                                    management
+                                                    strategy, adoption, and process improvements. Solves complex
+                                                    problems;
+                                                    takes a broad perspective to identify solutions based on best
+                                                    practices
+                                                    and drive RELEASE adoption.</p>
+                                            </div>
+											<button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Apply
+											</button>
+                                            <div class="clearfix"> </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab_grid">
+                                        <div class="jobs-item with-thumb">
+                                            <div class="thumb"><a href="jobs_single.html"><img src="assets/a6.jpg"
+                                                        class="img-responsive" alt="" /></a></div>
+                                            <div class="jobs_right">
+                                                <div class="date">30 <span>Jul</span></div>
+                                                <div class="date_desc">
+                                                    <h4 class="title"><a href="jobs_single.html">Marketing Coordinator</a>
+                                                    </h4>
+                                                    <!--span class="meta">Marketing Coordinator</span-->
+                                                </div>
+                                                <div class="clearfix"> </div>
+                                                <ul class="top-btns">
+                                                    <!--li><a href="#" class="fa fa-plus toggle"></a></li>
+                                                    <li><a href="#" class="fa fa-star"></a></li>
+                                                    <li><a href="#" class="fa fa-link"></a></li-->
+                                                </ul>
+                                                <p class="description"></p>
+                                            </div>
+                                            <div class="clearfix">Marketing coordinators are professionals who
+                                                coordinate
+                                                all the marketing activities and initiatives of an organization.
+                                                They
+                                                conduct market research, carry out promotional campaigns, identify
+                                                target
+                                                audiences and evaluate current trends. </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab_grid">
+                                        <div class="jobs-item with-thumb">
+                                            <div class="thumb"><a href="jobs_single.html"><img src="assets/a1.jpg"
+                                                        class="img-responsive" alt="" /></a></div>
+                                            <div class="jobs_right">
+                                                <div class="date">30 <span>Jul</span></div>
+                                                <div class="date_desc">
+                                                    <h4 class="title"><a href="jobs_single.html">Data Engineer</a>
+                                                    </h4>
+                                                    <!--span class="meta">Data Engineer</span-->
+                                                </div>
+                                                <div class="clearfix"> </div>
+                                                <ul class="top-btns">
+                                                    <!--li><a href="#" class="fa fa-plus toggle"></a></li>
+                                                    <li><a href="#" class="fa fa-star"></a></li>
+                                                    <li><a href="#" class="fa fa-link"></a></li-->
+                                                </ul>
+                                                <p class="description">Job Overview
+                                                    We are looking for a savvy Data Engineer to join our growing
+                                                    team of
+                                                    analytics experts. The hire will be responsible for expanding
+                                                    and
+                                                    optimizing our data and data pipeline architecture, as well as
+                                                    optimizing data flow and collection for cross functional teams.
+                                                    The
+                                                    ideal candidate is an experienced data pipeline builder and data
+                                                    wrangler who enjoys optimizing data systems and building them
+                                                    from the
+                                                    ground up. The Data Engineer will support our software
+                                                    developers,
+                                                    database architects, data analysts and data scientists on data
+                                                    initiatives and will ensure optimal data delivery architecture
+                                                    is
+                                                    consistent throughout ongoing projects. They must be
+                                                    self-directed and
+                                                    comfortable supporting the data needs of multiple teams, systems
+                                                    and
+                                                    products. The right candidate will be excited by the prospect of
+                                                    optimizing or even re-designing our company’s data architecture
+                                                    to
+                                                    support our next generation of products and data initiatives.
+                                                </p>
+                                            </div>
+											<button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Apply
+											</button>
+                                            <div class="clearfix"> </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab_grid">
+                                        <div class="jobs-item with-thumb">
+                                            <div class="thumb"><a href="jobs_single.html"><img src="assets/a3.jpg"
+                                                        class="img-responsive" alt="" /></a></div>
+                                            <div class="jobs_right">
+                                                <div class="date">30 <span>Jul</span></div>
+                                                <div class="date_desc">
+                                                    <h4 class="title"><a href="jobs_single.html">AWS Solutions Architect</a>
+                                                    </h4>
+                                                    <!--span class="meta">AWS Solutions Architect</span-->
+                                                </div>
+                                                <div class="clearfix"> </div>
+                                                <ul class="top-btns">
+                                                    <!--li><a href="#" class="fa fa-plus toggle"></a></li>
+                                                    <li><a href="#" class="fa fa-star"></a></li>
+                                                    <li><a href="#" class="fa fa-link"></a></li-->
+                                                </ul>
+                                                <p class="description">Architecting, building, and maintaining
+                                                    cost-efficient, scalable cloud environments for the
+                                                    organization.
+                                                    Understanding business objectives of the company and creating
+                                                    cloud-based solutions to facilitate those objectives.
+                                                    Moving archaic systems into the cloud for more efficiency within
+                                                    the
+                                                    organization – aka digital transformation.
+                                                    Keeping cloud environments secure and preventing downtime or
+                                                    security
+                                                    breaches.
+                                                    Determining the risk associated with third-party platforms or
+                                                    frameworks.
+                                                    Looking for ways to improve operations within company to
+                                                    digitize common
+                                                    tasks.
+                                                    Designing, building, maintaining internal cloud applications for
+                                                    the
+                                                    organization.
+                                                    Transferring data and internal processes to cloud architecture.
+                                                    Keeping data leakage and downtime to an absolute minimum.
+                                                    Keeping up to date on best practices in cloud computing and
+                                                    making
+                                                    improvements to the cloud infrastructure of their company or
+                                                    organization.
+                                                    Communicating with internal teams</p>
+                                            </div>
+											<button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Apply
+											</button>
+                                            <div class="clearfix"> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+			<div class="single">
+                <div class="col-md-9 single_right">
+                    <div class="but_list">
+                        <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+                            <ul id="myTab" class="nav nav-tabs" role="tablist">
+                                <li role="presentation" ><!--a href="#home" id="home-tab" role="tab"
+                                        data-toggle="tab" aria-controls="home" aria-expanded="true">Available
+                                        jobs</a--><a>
+
+
+										</a></li>
+                                <!--li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">Show Descriptions</a></li-->
+                            </ul>
+                            <div id="myTabContent" class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade in active" id="home"
+                                    aria-labelledby="home-tab">
+                                    <div class="tab_grid">
+                                        <div class="jobs-item with-thumb">
+                                            <div class="thumb"><a href="jobs_single.html"><img src="assets/a2.jpg"
+                                                        class="img-responsive" alt="" /></a></div>
+                                            <div class="jobs_right">
+                                                <div class="date">30 <span>Jul</span></div>
+                                                <div class="date_desc">
+                                                    <h4 class="title"><a href="jobs_single.html">Front-end
+                                                            Developer</a>
+                                                    </h4>
+                                                    <span class="meta">Senior Software Engineer</span>
+                                                </div>
+                                                <div class="clearfix"> </div>
+                                                <ul class="top-btns">
+													
+                                                    <!--li><a href="#" class="fa fa-plus toggle"></a></li>
+                                                    <li><a href="#" class="fa fa-star"></a></li>
+                                                    <li><a href="#" class="fa fa-link"></a></li-->
+                                                </ul>
+                                                <p class="description">Do you want to work on a product which
+                                                    touches and
+                                                    transforms the lives of billions of people across the globe? Are
+                                                    you
+                                                    someone who is passionate about bringing customer obsession and
+                                                    engineering craftsmanship into the product you build? Are you
+                                                    looking to
+                                                    work on large scale websites building a compelling user
+                                                    experience and
+                                                    the frameworks behind the experiences?The People Also Ask team
+                                                    is hiring
+                                                    a full stack developer who can help us build the next generation
+                                                    backend
+                                                    and frontend experiences that would delight our customers.
+                                                    As a software engineer on this team, you will be responsible for
+                                                    designing, coding, and owning software and services to enable
+                                                    high
+                                                    performant, delightful web sites and applications.</p>
+                                            </div>
+											<button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Apply
+											</button>
+                                            <div class="clearfix"> </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab_grid">
+                                        <div class="jobs-item with-thumb">
+                                            <div class="thumb"><a href="jobs_single.html"><img src="assets/a1.jpg"
+                                                        class="img-responsive" alt="" /></a></div>
+                                            <div class="jobs_right">
+                                                <div class="date">30 <span>Jul</span></div>
+                                                <div class="date_desc">
+                                                    <h4 class="title"><a href="jobs_single.html">SQL Developer, Pune</a>
+                                                    </h4>
+                                                    <!--span class="meta">SQL Developer, Pune</span-->
+                                                </div>
+                                                <div class="clearfix"> </div>
+                                                <ul class="top-btns">
+                                                    <!--li><a href="#" class="fa fa-plus toggle"></a></li>
+                                                    <li><a href="#" class="fa fa-star"></a></li>
+                                                    <li><a href="#" class="fa fa-link"></a></li-->
+                                                </ul>
+                                                <p class="description">Your Role and Responsibilities.Create and
+                                                    maintain
+                                                    optimal data pipeline architecture. Assemble large, complex data
+                                                    sets
+                                                    that meet business requirements, using complex SQL queries.
+                                                    Perform data analysis of complex data sets which is required to
+                                                    troubleshoot data related issues and assist in the resolution of
+                                                    data
+                                                    issues.</p>
+                                            </div>
+											<button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Apply
+											</button>
+                                            <div class="clearfix"> </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab_grid">
+                                        <div class="jobs-item with-thumb">
+                                            <div class="thumb"><a href="jobs_single.html"><img src="assets/a3.jpg"
+                                                        class="img-responsive" alt="" /></a></div>
+                                            <div class="jobs_right">
+                                                <div class="date">30 <span>Jul</span></div>
+                                                <div class="date_desc">
+                                                    <h4 class="title"><a href="jobs_single.html">Construction Accountant</a>
+                                                    </h4>
+                                                    <!--span class="meta">Construction Accountant</span-->
+                                                </div>
+                                                <div class="clearfix"> </div>
+                                                <ul class="top-btns">
+                                                    <!--li><a href="#" class="fa fa-plus toggle"></a></li>
+                                                    <li><a href="#" class="fa fa-star"></a></li>
+                                                    <li><a href="#" class="fa fa-link"></a></li-->
+                                                </ul>
+                                                <p class="description">We are looking to hire an experienced
+                                                    construction
+                                                    accountant to join our company. In this role, you'll be
+                                                    responsible for
+                                                    managing the accounts of various construction projects by
+                                                    creating
+                                                    detailed budgets, overseeing supplier contracts, evaluating
+                                                    production
+                                                    costs, and verifying invoice statements.
+                                                    To ensure success as a construction accountant, you should
+                                                    display
+                                                    excellent business acumen and the ability to minimize production
+                                                    costs
+                                                    through efficient accounting. Ultimately, a top-notch
+                                                    construction
+                                                    accountant is an analytical and detail-oriented individual with
+                                                    a high
+                                                    level of financial accuracy.</p>
+                                            </div>
+											<button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Apply
+											</button>
+                                            <div class="clearfix"> </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab_grid">
+                                        <div class="jobs-item with-thumb">
+                                            <div class="thumb"><a href="jobs_single.html"><img src="assets/a4.png"
+                                                        class="img-responsive" alt="" /></a></div>
+                                            <div class="jobs_right">
+                                                <div class="date">30 <span>Jul</span></div>
+                                                <div class="date_desc">
+                                                    <h4 class="title"><a href="jobs_single.html">Salesforce Project Manager</a>
+                                                    </h4>
+                                                    <!--span class="meta">Salesforce Project Manager</span-->
+                                                </div>
+                                                <div class="clearfix"> </div>
+                                                <ul class="top-btns">
+                                                    <!--li><a href="#" class="fa fa-plus toggle"></a></li>
+                                                    <li><a href="#" class="fa fa-star"></a></li>
+                                                    <li><a href="#" class="fa fa-link"></a></li-->
+                                                </ul>
+                                                <p class="description">We are searching for a skilled Salesforce
+                                                    project
+                                                    manager to oversee projects developed by our business on various
+                                                    Salesforce platforms. In this role, you will be tasked with
+                                                    determining
+                                                    project scope, goals, milestones, and short-term objectives for
+                                                    the
+                                                    development team. You will also take charge of costs, client
+                                                    relations,
+                                                    and final approval.
+                                                    To ensure success as a Salesforce project manager, you should be
+                                                    knowledgeable about the various Salesforce solutions and be
+                                                    skilled at
+                                                    leveraging the talents of your development team. A top-notch
+                                                    Salesforce
+                                                    project manager will be skilled in managing projects for
+                                                    Salesforce
+                                                    Sales Cloud, Service Cloud, Marketing Cloud, and Salesforce1</p>
+                                            </div>
+											<button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Apply
+											</button>
+                                            <div class="clearfix"> </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab_grid">
+                                        <div class="jobs-item with-thumb">
+                                            <div class="thumb"><a href="jobs_single.html"><img src="assets/a5.jpg"
+                                                        class="img-responsive" alt="" /></a></div>
+                                            <div class="jobs_right">
+                                                <div class="date">30 <span>Jul</span></div>
+                                                <div class="date_desc">
+                                                    <h4 class="title"><a href="jobs_single.html">Staff Configuration/Release Engineer</a>
+                                                    </h4>
+                                                    <!--span class="meta">Staff Configuration/Release Engineer</span-->
+                                                </div>
+                                                <div class="clearfix"> </div>
+                                                <ul class="top-btns">
+                                                    <!--li><a href="#" class="fa fa-plus toggle"></a></li>
+                                                    <li><a href="#" class="fa fa-star"></a></li>
+                                                    <li><a href="#" class="fa fa-link"></a></li-->
+                                                </ul>
+                                                <p class="description">ServiceNow is changing the way people work.
+                                                    With a
+                                                    service-orientation toward the activities, tasks and processes
+                                                    that make
+                                                    up day-to-day work life, we help the modern enterprise operate
+                                                    faster
+                                                    and be more scalable than ever before.
+                                                    We are disruptive. We work hard but try not to take ourselves
+                                                    too
+                                                    seriously. We are highly adaptable and constantly evolving. We
+                                                    are
+                                                    passionate about our product, and we live for our customers. We
+                                                    have
+                                                    high expectations and a career at ServiceNow means challenging
+                                                    yourself
+                                                    to always be better.
+                                                    Staff Release Engineer will help to revolutionize ServiceNow
+                                                    internal
+                                                    Product release and delivery process for its business users and
+                                                    developers. In need of a candidate to lead design release
+                                                    management
+                                                    strategy, adoption, and process improvements. Solves complex
+                                                    problems;
+                                                    takes a broad perspective to identify solutions based on best
+                                                    practices
+                                                    and drive RELEASE adoption.</p>
+                                            </div>
+											<button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Apply
+											</button>
+                                            <div class="clearfix"> </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab_grid">
+                                        <div class="jobs-item with-thumb">
+                                            <div class="thumb"><a href="jobs_single.html"><img src="assets/a6.jpg"
+                                                        class="img-responsive" alt="" /></a></div>
+                                            <div class="jobs_right">
+                                                <div class="date">30 <span>Jul</span></div>
+                                                <div class="date_desc">
+                                                    <h4 class="title"><a href="jobs_single.html">Marketing Coordinator</a>
+                                                    </h4>
+                                                    <!--span class="meta">Marketing Coordinator</span-->
+                                                </div>
+                                                <div class="clearfix"> </div>
+                                                <ul class="top-btns">
+                                                    <!--li><a href="#" class="fa fa-plus toggle"></a></li>
+                                                    <li><a href="#" class="fa fa-star"></a></li>
+                                                    <li><a href="#" class="fa fa-link"></a></li-->
+                                                </ul>
+                                                <p class="description"></p>
+                                            </div>
+                                            <div class="clearfix">Marketing coordinators are professionals who
+                                                coordinate
+                                                all the marketing activities and initiatives of an organization.
+                                                They
+                                                conduct market research, carry out promotional campaigns, identify
+                                                target
+                                                audiences and evaluate current trends. </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab_grid">
+                                        <div class="jobs-item with-thumb">
+                                            <div class="thumb"><a href="jobs_single.html"><img src="assets/a1.jpg"
+                                                        class="img-responsive" alt="" /></a></div>
+                                            <div class="jobs_right">
+                                                <div class="date">30 <span>Jul</span></div>
+                                                <div class="date_desc">
+                                                    <h4 class="title"><a href="jobs_single.html">Data Engineer</a>
+                                                    </h4>
+                                                    <!--span class="meta">Data Engineer</span-->
+                                                </div>
+                                                <div class="clearfix"> </div>
+                                                <ul class="top-btns">
+                                                    <!--li><a href="#" class="fa fa-plus toggle"></a></li>
+                                                    <li><a href="#" class="fa fa-star"></a></li>
+                                                    <li><a href="#" class="fa fa-link"></a></li-->
+                                                </ul>
+                                                <p class="description">Job Overview
+                                                    We are looking for a savvy Data Engineer to join our growing
+                                                    team of
+                                                    analytics experts. The hire will be responsible for expanding
+                                                    and
+                                                    optimizing our data and data pipeline architecture, as well as
+                                                    optimizing data flow and collection for cross functional teams.
+                                                    The
+                                                    ideal candidate is an experienced data pipeline builder and data
+                                                    wrangler who enjoys optimizing data systems and building them
+                                                    from the
+                                                    ground up. The Data Engineer will support our software
+                                                    developers,
+                                                    database architects, data analysts and data scientists on data
+                                                    initiatives and will ensure optimal data delivery architecture
+                                                    is
+                                                    consistent throughout ongoing projects. They must be
+                                                    self-directed and
+                                                    comfortable supporting the data needs of multiple teams, systems
+                                                    and
+                                                    products. The right candidate will be excited by the prospect of
+                                                    optimizing or even re-designing our company’s data architecture
+                                                    to
+                                                    support our next generation of products and data initiatives.
+                                                </p>
+                                            </div>
+											<button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Apply
+											</button>
+                                            <div class="clearfix"> </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab_grid">
+                                        <div class="jobs-item with-thumb">
+                                            <div class="thumb"><a href="jobs_single.html"><img src="assets/a3.jpg"
+                                                        class="img-responsive" alt="" /></a></div>
+                                            <div class="jobs_right">
+                                                <div class="date">30 <span>Jul</span></div>
+                                                <div class="date_desc">
+                                                    <h4 class="title"><a href="jobs_single.html">AWS Solutions Architect</a>
+                                                    </h4>
+                                                    <!--span class="meta">AWS Solutions Architect</span-->
+                                                </div>
+                                                <div class="clearfix"> </div>
+                                                <ul class="top-btns">
+                                                    <!--li><a href="#" class="fa fa-plus toggle"></a></li>
+                                                    <li><a href="#" class="fa fa-star"></a></li>
+                                                    <li><a href="#" class="fa fa-link"></a></li-->
+                                                </ul>
+                                                <p class="description">Architecting, building, and maintaining
+                                                    cost-efficient, scalable cloud environments for the
+                                                    organization.
+                                                    Understanding business objectives of the company and creating
+                                                    cloud-based solutions to facilitate those objectives.
+                                                    Moving archaic systems into the cloud for more efficiency within
+                                                    the
+                                                    organization – aka digital transformation.
+                                                    Keeping cloud environments secure and preventing downtime or
+                                                    security
+                                                    breaches.
+                                                    Determining the risk associated with third-party platforms or
+                                                    frameworks.
+                                                    Looking for ways to improve operations within company to
+                                                    digitize common
+                                                    tasks.
+                                                    Designing, building, maintaining internal cloud applications for
+                                                    the
+                                                    organization.
+                                                    Transferring data and internal processes to cloud architecture.
+                                                    Keeping data leakage and downtime to an absolute minimum.
+                                                    Keeping up to date on best practices in cloud computing and
+                                                    making
+                                                    improvements to the cloud infrastructure of their company or
+                                                    organization.
+                                                    Communicating with internal teams</p>
+                                            </div>
+											<button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Apply
+											</button>
+                                            <div class="clearfix"> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>	
+		</div>
+    </div>
+    <div class="footer">
+        <div class="footer1">
+            <div class="container">
+                <div class="col-md-3 grid_3">
+                    <div class="clearfix"> </div>
+                </div>
+
+                <div class="col-md-3 grid_3">
+                    <h4>Sign up for our newsletter</h4>
+                    <form>
+                        <input type="text" class="form-control" placeholder="Enter your email">
+                        <button type="button" class="btn red">Subscribe now!</button>
+                    </form>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <div class="footer1">
+            <div class="container">
+                <div class="col-sm-2">
+                    <ul class="f_list2">
+                        <li><a href="jobs.html">Mumbai Jobs</a></li>
+                        <li><a href="jobs.html">Pune Jobs</a></li>
+                        <li><a href="jobs.html">Bangalore Jobs</a></li>
+                        <li><a href="jobs.html">Chennai Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <ul class="f_list2">
+                        <li><a href="jobs.html">New Zealand Jobs</a></li>
+                        <li><a href="jobs.html">America Jobs</a></li>
+                        <li><a href="jobs.html">India Jobs</a></li>
+                        <li><a href="jobs.html">Irland Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <ul class="f_list2">
+                        <li><a href="jobs.html">Canada Jobs</a></li>
+                        <li><a href="jobs.html">Germany Jobs</a></li>
+                        <li><a href="jobs.html">China Jobs</a></li>
+                        <li><a href="jobs.html">Nepal Jobs</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>	
